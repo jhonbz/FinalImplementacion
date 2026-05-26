@@ -28,6 +28,15 @@ else
     echo "✅ llama3.2 ya disponible"
 fi
 
+echo "⏳ Verificando modelo de embeddings (nomic-embed-text)..."
+if ! ollama list | grep -q "nomic-embed-text"; then
+    echo "📥 Descargando nomic-embed-text..."
+    ollama pull nomic-embed-text
+    echo "✅ nomic-embed-text descargado"
+else
+    echo "✅ nomic-embed-text ya disponible"
+fi
+
 # ── Crear directorios necesarios ─────────────────────────────────
 mkdir -p /app/chroma_db /app/uploads
 

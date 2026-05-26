@@ -1,14 +1,14 @@
 import chromadb
 from chromadb.config import Settings as ChromaSettings
 from langchain_chroma import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_ollama import OllamaEmbeddings
 from app.core.config import settings
 
 _chroma_client = None
 _vectorstore = None
 
-# Modelo multilingüe de HuggingFace — soporta español correctamente
-EMBEDDING_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
+# Modelo de embeddings vía Ollama — no requiere PyTorch
+EMBEDDING_MODEL = "nomic-embed-text"
 
 
 def get_chroma_client() -> chromadb.Client:
@@ -24,10 +24,9 @@ def get_chroma_client() -> chromadb.Client:
 def get_vectorstore() -> Chroma:
     global _vectorstore
     if _vectorstore is None:
-        embeddings = HuggingFaceEmbeddings(
-            model_name=EMBEDDING_MODEL,
-            model_kwargs={"device": "cpu"},
-            encode_kwargs={"normalize_embeddings": True},
+        embeddings = OllamaEmbeddings(
+            model=EMBEDDING_MODEL,
+            base_url=settings.OLLAMA_BASE_URL,
         )
         _vectorstore = Chroma(
             client=get_chroma_client(),
