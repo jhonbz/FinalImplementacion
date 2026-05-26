@@ -5,7 +5,7 @@ Soporta: PDF, TXT, Markdown, DOCX, CSV
 import os
 import uuid
 from pathlib import Path
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import (
     PyPDFLoader,
     TextLoader,
