@@ -36,14 +36,15 @@ class AgentState(TypedDict):
 
 
 # ─────────────────────────────────────────
-# LLM local
+# LLM local via Ollama
 # ─────────────────────────────────────────
 def get_llm() -> OllamaLLM:
     return OllamaLLM(
         base_url=settings.OLLAMA_BASE_URL,
         model=settings.OLLAMA_MODEL,
         temperature=0.0,
-        num_predict=600,
+        num_predict=250,
+        num_ctx=2048,
     )
 
 
@@ -137,7 +138,6 @@ def nodo_generar_respuesta(state: AgentState) -> AgentState:
 
     contexto_texto = "\n---\n".join([item["content"] for item in state["context"]])
 
-    # Prompt como string directo — más confiable con modelos pequeños
     prompt_str = (
         f"Eres el asistente del Café de Magga. "
         f"Responde en español usando SOLO la información del contexto.\n\n"
