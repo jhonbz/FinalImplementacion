@@ -19,13 +19,13 @@ for i in {1..30}; do
 done
 
 # ── Descargar modelos si no existen ─────────────────────────────
-echo "⏳ Verificando modelo LLM (llama3.2)..."
-if ! ollama list | grep -q "llama3.2"; then
-    echo "📥 Descargando llama3.2 (primera vez, puede tardar)..."
-    ollama pull llama3.2
-    echo "✅ llama3.2 descargado"
+echo "⏳ Verificando modelo LLM (llama3.2:1b)..."
+if ! ollama list | grep -q "llama3.2:1b"; then
+    echo "📥 Descargando llama3.2:1b (primera vez, puede tardar)..."
+    ollama pull llama3.2:1b
+    echo "✅ llama3.2:1b descargado"
 else
-    echo "✅ llama3.2 ya disponible"
+    echo "✅ llama3.2:1b ya disponible"
 fi
 
 echo "⏳ Verificando modelo de embeddings (nomic-embed-text)..."
