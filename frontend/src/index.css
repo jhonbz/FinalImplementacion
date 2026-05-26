@@ -1,0 +1,62 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cafe-brown:    #4a2c2a;
+  --cafe-light:    #7b4f3a;
+  --cafe-cream:    #f5f0e8;
+  --cafe-gold:     #c9a84c;
+  --cafe-white:    #fffdf9;
+  --text-main:     #2d2016;
+  --text-muted:    #7a6a5a;
+  --border:        #e0d5c5;
+  --shadow:        0 2px 12px rgba(74,44,42,0.10);
+  --radius:        12px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--cafe-cream);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cafe-cream); }
+::-webkit-scrollbar-thumb { background: var(--cafe-light); border-radius: 3px; }
+
+/* ── Botones ── */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 10px 20px; border-radius: 8px; border: none;
+  font-size: 14px; font-weight: 600; cursor: pointer;
+  transition: all 0.2s; text-decoration: none;
+}
+.btn-primary {
+  background: var(--cafe-brown); color: #fff;
+}
+.btn-primary:hover { background: var(--cafe-light); transform: translateY(-1px); }
+.btn-secondary {
+  background: transparent; color: var(--cafe-brown);
+  border: 1.5px solid var(--cafe-brown);
+}
+.btn-secondary:hover { background: var(--cafe-cream); }
+.btn-danger { background: #c0392b; color: #fff; }
+.btn-danger:hover { background: #a93226; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+/* ── Inputs ── */
+.input {
+  width: 100%; padding: 11px 14px; border-radius: 8px;
+  border: 1.5px solid var(--border); background: #fff;
+  font-size: 14px; color: var(--text-main);
+  transition: border-color 0.2s;
+  outline: none;
+}
+.input:focus { border-color: var(--cafe-brown); }
+
+/* ── Cards ── */
+.card {
+  background: var(--cafe-white); border-radius: var(--radius);
+  box-shadow: var(--shadow); border: 1px solid var(--border);
+}

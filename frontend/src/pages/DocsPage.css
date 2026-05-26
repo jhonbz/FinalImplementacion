@@ -1,0 +1,62 @@
+.docs-page {
+  display: flex; flex-direction: column;
+  height: 100%; overflow-y: auto;
+  padding: 28px 32px; gap: 24px;
+  background: var(--cafe-cream);
+}
+
+/* ── Header ── */
+.docs-header { display: flex; align-items: flex-start; justify-content: space-between; }
+.docs-title  { font-size: 20px; font-weight: 700; color: var(--cafe-brown); }
+.docs-sub    { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+/* ── Upload zone ── */
+.upload-zone {
+  border: 2px dashed var(--cafe-light);
+  border-radius: var(--radius);
+  padding: 40px 24px;
+  text-align: center;
+  cursor: pointer;
+  background: var(--cafe-white);
+  transition: all 0.2s;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+}
+.upload-zone:hover, .upload-zone.drag-over {
+  border-color: var(--cafe-brown);
+  background: rgba(74,44,42,0.04);
+}
+.upload-zone.uploading { opacity: 0.7; cursor: wait; }
+
+.upload-icon  { color: var(--cafe-light); }
+.upload-text  { font-weight: 600; color: var(--cafe-brown); font-size: 14px; }
+.upload-formats { font-size: 12px; color: var(--text-muted); }
+
+/* ── List ── */
+.docs-list-section { display: flex; flex-direction: column; gap: 12px; }
+.docs-list-title   { font-size: 15px; font-weight: 600; color: var(--cafe-brown); }
+
+.docs-empty {
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 40px; color: var(--text-muted);
+  background: var(--cafe-white); border-radius: var(--radius);
+  border: 1px solid var(--border); text-align: center;
+}
+
+/* ── Doc card ── */
+.docs-grid { display: flex; flex-direction: column; gap: 8px; }
+
+.doc-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px;
+}
+.doc-icon  { color: var(--cafe-brown); flex-shrink: 0; }
+.doc-info  { flex: 1; min-width: 0; }
+.doc-name  { font-weight: 600; font-size: 14px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.doc-meta  { display: flex; gap: 6px; font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+.doc-type  { text-transform: uppercase; font-weight: 600; color: var(--cafe-light); }
+
+.doc-status {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 12px; font-weight: 600; flex-shrink: 0;
+}
+.doc-delete { padding: 6px 10px; font-size: 12px; flex-shrink: 0; }

@@ -1,0 +1,92 @@
+PROCEDIMIENTOS DE OPERACIÓN — CAFÉ DE MAGGA
+============================================
+
+APERTURA DEL LOCAL (6:30 AM)
+-----------------------------
+1. Llegar 30 minutos antes de la apertura al público (6:30 AM).
+2. Revisar que las puertas y ventanas estén bien cerradas.
+3. Encender luces, sistema de música y ventilación.
+4. Lavar manos con jabón antibacterial durante mínimo 20 segundos.
+5. Encender la máquina de espresso: dejar precalentar 20 minutos.
+6. Encender el molino y calibrar la molienda del día.
+7. Verificar stock de insumos: leche, café, azúcar, jarabes, vasos, tapas.
+8. Preparar el cajón de dinero con el fondo de caja ($ 50.000 COP).
+9. Limpiar vitrinas y mesas con desinfectante.
+10. Encender el sistema POS y verificar que esté funcionando.
+11. Realizar 2 shots de espresso de prueba para calibrar la máquina.
+12. Abrir la puerta al público a las 7:00 AM.
+
+CALIBRACIÓN DE LA MÁQUINA DE ESPRESSO
+--------------------------------------
+La calibración se realiza cada mañana al abrir y cuando se cambia el lote de café.
+Parámetros objetivo:
+- Dosis: 18 gramos de café molido.
+- Rendimiento: 36 gramos de líquido en taza (ratio 1:2).
+- Tiempo: 25 a 30 segundos de extracción.
+- Temperatura del agua: 93°C.
+Si el espresso sale en menos de 25 segundos: moler más fino.
+Si el espresso sale en más de 30 segundos: moler más grueso.
+Registrar la calibración en el cuaderno de control de calidad.
+
+MANEJO DE LA LECHE
+------------------
+La leche debe mantenerse refrigerada a 4°C hasta el momento de usarse.
+Solo sacar del refrigerador la cantidad que se va a usar.
+Temperatura de vaporizado para latte y cappuccino: 65°C a 70°C.
+Nunca vaporizar la misma leche dos veces.
+Si sobra leche vaporizada, desecharla.
+Leche de soya y leche de almendras disponibles como alternativas sin lactosa.
+Para vaporizar leches vegetales, usar temperatura más baja: 60°C.
+
+LIMPIEZA DE LA MÁQUINA DE ESPRESSO (diaria)
+--------------------------------------------
+Cada 2 horas durante el servicio:
+- Purgar el vaporizador antes y después de cada uso.
+- Limpiar el portafiltro con paño limpio.
+- Hacer un backflush (retrolavado) con agua limpia.
+
+Al cierre del día:
+1. Hacer backflush con pastilla de limpieza Cafiza.
+2. Limpiar la canasta del portafiltro con cepillo.
+3. Limpiar los cabezales del grupo con cepillo y agua caliente.
+4. Limpiar los vaporizadores con paño húmedo.
+5. Apagar la máquina.
+6. Limpiar el exterior de la máquina con paño seco.
+
+ATENCIÓN AL CLIENTE
+--------------------
+Saludo estándar: "¡Bienvenido al Café de Magga! ¿Qué le gustaría tomar hoy?"
+- Escuchar el pedido completo antes de repetirlo.
+- Siempre confirmar el pedido antes de prepararlo.
+- Preguntar siempre: ¿Lo prefiere caliente o frío? ¿Lleva azúcar?
+- Para llevar: preguntar si desea crema o topping adicional.
+- Tiempo de espera máximo: 5 minutos para bebidas calientes, 7 para frías.
+- Si la espera supera 8 minutos, informar al cliente y ofrecer una cortesía.
+Manejo de quejas:
+- Escuchar sin interrumpir.
+- Pedir disculpas sin justificarse.
+- Ofrecer solución inmediata: rehacer la bebida o cambiarla.
+- Escalar a la persona a cargo si el cliente persiste.
+
+CIERRE DEL LOCAL (8:00 PM)
+---------------------------
+1. Dejar de recibir nuevos pedidos a las 7:45 PM.
+2. Atender a todos los clientes presentes.
+3. Limpiar y desinfectar todas las superficies de trabajo.
+4. Lavar todos los utensilios, tazas y vasos.
+5. Realizar limpieza completa de la máquina de espresso.
+6. Guardar los insumos perecederos en refrigeración.
+7. Vaciar y limpiar el molino.
+8. Realizar el conteo de caja y cuadrar con las ventas del sistema POS.
+9. Registrar ventas del día en el libro de operaciones.
+10. Apagar todos los equipos eléctricos.
+11. Revisar que las ventanas y puertas queden aseguradas.
+12. Activar la alarma de seguridad.
+
+MANEJO DE RESIDUOS
+------------------
+- El borra de café (café molido usado) se deposita en el recipiente verde para compostaje.
+- Empaques de plástico en el recipiente gris.
+- Vidrios y latas en el recipiente azul.
+- Papel y cartón en el recipiente amarillo.
+- El cold brew se prepara solo una vez al día y lo que no se vende se descarta al cierre.

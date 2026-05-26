@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Base de datos y archivos generados
+*.db
+backend/chroma_db/
+backend/uploads/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Cache npm alternativo
+/tmp/npm-cache-magga
